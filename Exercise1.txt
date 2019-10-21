@@ -1,0 +1,144 @@
+*
+READ and SAVE "first number"
+READ and SAVE "second number"
+COMPUTE "first number" added by "second number"
+SAVE previous computation result
+SHOW the computation result
+
+
+**
+STORE "width" with any value
+STORE "height" with any value
+STORE "area" without any value
+
+CALCULATE "width" times "height"
+SET "area" value with calculation result
+
+DISPLAY "area"
+
+
+***
+
+1. Newton Second Law
+
+a. Algoritma
+
+Simpan "massa" dengan nilai 600
+Simpan "acceleration" dengan nilai 2
+Simpan "resultant" dengan nilai berapapun
+Hitung perkalian antara "massa" dengan "accelaration"
+Simpan "resultant" dengan hasil perkalian
+
+b. Pseucode
+
+STORE "massa" with "600"
+STORE "accelaration" with "2"
+STORE "resultant" with any value
+
+CALCULATE "massa" times "accelaration" 
+SET "resultant" value with calculation result
+
+DISPLAY "resultant"
+
+
+
+2. Tahun Kabisat
+
+a. Algoritma
+
+Simpan "Tahun" dengan nilai berapapun
+Hitung pembagian "Tahun" dengan 4
+Simpan "Tahun1" untuk hasil perhitungan
+Apabila "Tahun1" sama dengan 0, simpan nilai untuk "Tahun2"
+Apabila "Tahun1" tidak sama dengan 0, tampilkan "Bukan Tahun Kabisat Gregorian"
+Hitung pembagian "Tahun2" dengan 100
+Simpan "Tahun3" untuk hasil perhitungan
+Apabila "Tahun3" sama dengan 0, tampilkan "Tahun Kabisat Gregorian"
+Apabila "Tahun3" tidak sama dengan 0, simpan nilai untuk "Tahun4"
+Hitung pembagian "Tahun4" dengan 400
+Simpan "Tahun5" untuk hasil perhitungan
+Apabila "Tahun5" samadengan 0, tampilkan "Bukan Tahun Kabisat Grogian" 
+
+b. Pseucode
+
+STORE "massa" with "600"
+STORE "accelaration" with "2"
+STORE "resultant" with any value
+
+CALCULATE "massa" times "accelaration" 
+SET "resultant" value with calculation result
+
+DISPLAY "resultant"
+
+
+2. Tahun Kabisat
+
+a. Algoritma
+
+Simpan "massa" dengan nilai 600
+Simpan "acceleration" dengan nilai 2
+Simpan "resultant" dengan nilai berapapun
+Hitung perkalian antara "massa" dengan "accelaration"
+Simpan "resultant" dengan hasil perkalian
+
+b. Pseucode
+
+STORE "Tahun" with any value
+CALCULATE "Tahun" mod 4
+STORE "Tahun1" to the result of calculation
+    IF "Tahun1"= 0
+	STORE to "Tahun2"
+    ELSE 
+        DISPLAY "Bukan Tahun Kabisat Gregorian"
+CALCULATE "Tahun2" mod 100
+STORE "Tahun3" to the result of calculation
+    IF "Tahun3" = 0 
+        DISPLAY "Tahun Kabisat Gregorian"
+    ELSE 	
+	STORE to "Tahun4"
+CALCULATE "Tahun4" mod 400
+STORE "Tahun5" to the result of calculation
+    IF "Tahun5" = 0 
+	DISPLAY "Tahun Kabisat Gregorian"
+    ELSE 
+	DISPLAY "Bukan Tahun Kabisat Gregorian"
+     
+3. Laundry Day
+
+a. Algoritma
+
+Simpan nilai "Washing" dengan angka 0
+Saat nilai "Washing" kurang dari 20, maka tambah nilai "Washing" dengan angka 1
+Apabila "Washing" sama dengan 20, maka tampilkan "Start to washing"
+
+b. Pseucode
+
+STORE "Washing" with 0
+
+WHILE "Washing" < 21
+   ADD "Washing" by 1
+
+DISPLAY "Start to Washing"
+
+
+4. Periksa Kuku
+
+a. Algoritma
+
+Baca data "Students" sepanjang 40
+Saat "Urutan Students" bernilai kurang dari 40, 
+Apabila "Students Nail" memiliki status "Panjang", maka tampilkan "Hukum"
+Apabila "Student Nail" memiliki status "Pendek", maka tampilkan "Puji"
+Kemudian kembali lagi ke tahap 2 hingga nilai "Urutan Students" samadengan "Students"
+
+b. Pseucode
+
+READ AND SAVE "Students" by 40 length
+WHILE "Urutan Students" < "Students"
+    IF "Students Nail" = "Panjang" 
+	DISPLAY "Hukum"
+    ELSE IF "Students Nail" = "Pendek"
+	DISPLAY "Puji"
+    END IF
+ADD "Urutan Students" by 1
+END While "Urutan Students" = "Students"
