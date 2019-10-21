@@ -1,24 +1,3 @@
-*
-READ and SAVE "first number"
-READ and SAVE "second number"
-COMPUTE "first number" added by "second number"
-SAVE previous computation result
-SHOW the computation result
-
-
-**
-STORE "width" with any value
-STORE "height" with any value
-STORE "area" without any value
-
-CALCULATE "width" times "height"
-SET "area" value with calculation result
-
-DISPLAY "area"
-
-
-***
-
 1. Newton Second Law
 
 a. Algoritma
@@ -42,6 +21,8 @@ DISPLAY "resultant"
 
 
 
+
+
 2. Tahun Kabisat
 
 a. Algoritma
@@ -59,27 +40,6 @@ Hitung pembagian "Tahun4" dengan 400
 Simpan "Tahun5" untuk hasil perhitungan
 Apabila "Tahun5" samadengan 0, tampilkan "Bukan Tahun Kabisat Grogian" 
 
-b. Pseucode
-
-STORE "massa" with "600"
-STORE "accelaration" with "2"
-STORE "resultant" with any value
-
-CALCULATE "massa" times "accelaration" 
-SET "resultant" value with calculation result
-
-DISPLAY "resultant"
-
-
-2. Tahun Kabisat
-
-a. Algoritma
-
-Simpan "massa" dengan nilai 600
-Simpan "acceleration" dengan nilai 2
-Simpan "resultant" dengan nilai berapapun
-Hitung perkalian antara "massa" dengan "accelaration"
-Simpan "resultant" dengan hasil perkalian
 
 b. Pseucode
 
@@ -102,7 +62,9 @@ STORE "Tahun5" to the result of calculation
 	DISPLAY "Tahun Kabisat Gregorian"
     ELSE 
 	DISPLAY "Bukan Tahun Kabisat Gregorian"
-     
+    END IF
+
+
 3. Laundry Day
 
 a. Algoritma
